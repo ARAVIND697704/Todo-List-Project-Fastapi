@@ -6,7 +6,7 @@ from schemas import Todo as Todoschema,TodoCreate, TodoUpdate
 
 app = FastAPI()
 
-models.Base.metadata.create_all(bind=engine)
+#models.Base.metadata.create_all(bind=engine)
 
 #dependency for db session
 def get_db():
